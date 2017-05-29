@@ -1,0 +1,7 @@
+{
+    "name": "vue-game",
+    "version": "1.0.0",
+    "description": "Simple Vue.js game",
+    "author": "Arthur Fauquenot <arthurfauquenot@yahoo.com> (htt://arthurfauquenot.com/)",
+    "license": "MIT"
+}

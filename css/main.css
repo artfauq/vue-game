@@ -1,0 +1,75 @@
+button {
+    width: 100%;
+    margin: 10px 0px 10px !important;
+}
+
+button p {
+    padding: 5px 0px;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.controls {
+    margin: 20px 0px;
+    background-color: #fcfcfc;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.feedbacks {
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    margin: 10px;
+    padding: 5px;
+}
+
+.feedbacks p {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.feedback-opponent {
+    background-color: rgba(255, 0, 0, .15);
+}
+
+.feedback-player {
+    background-color: rgba(0, 0, 255, .15);
+}
+
+i {
+    margin: 2px 7px;
+}
+
+.lp-bar {
+    width: 100%;
+    margin: auto;
+    background-color: #ddd;
+}
+
+.lp-bar .lp {
+    transition: all .3s;
+    background-color: #4CAF50;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.2em;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .controls {
+        background-color: #fcfcfc;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        margin: 20px 10px;
+        padding: 25px;
+    }
+    .lp-bar {
+        width: 80%;
+    }
+}

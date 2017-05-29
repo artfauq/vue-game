@@ -1,0 +1,20 @@
+{
+    "name": "vue-game",
+    "description": "Simple Vue.js game",
+    "authors": [
+        "Arthur Fauquenot <arthurfauquenot@yahoo.com> (htt://arthurfauquenot.com/)"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "^3.3.7",
+        "jquery": "^3.2.1",
+        "animate.css": "^3.5.2"
+    }
+}
